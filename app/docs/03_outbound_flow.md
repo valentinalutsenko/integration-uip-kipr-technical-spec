@@ -1,3 +1,6 @@
+### Диаграмма последовательности отправки проекта
+
+```plantuml
 @startuml
 actor "Пользователь" as user
 participant "Frontend" as front
@@ -39,3 +42,4 @@ else Все условия выполнены
     eip->kipr: Передача файлов
 end
 @enduml
+```
